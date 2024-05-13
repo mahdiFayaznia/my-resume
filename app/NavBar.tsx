@@ -20,7 +20,7 @@ const Navbar = () => {
         <HiMenuAlt2 size={50} />
       </div>
       <nav
-        className={`fixed z-[999] flex items-center gap-5 rounded-full bg-slate-100/30 px-6 py-3 text-blue-950 backdrop-blur-sm duration-200 ${
+        className={`fixed z-[999] flex items-center gap-5 rounded-full bg-blue-950 px-6 py-3 text-white duration-200 ${
           showMenu ? "bottom-10" : "bottom-[-100%]"
         }`}
       >
@@ -30,7 +30,7 @@ const Navbar = () => {
             href={item.link}
             onClick={() => setActive(i)}
             className={`rounded-full p-3 text-xl sm:cursor-pointer 
-     ${i === active && "bg-blue-950 text-white"}`}
+     ${i === active && "text-blue-950 bg-white"}`}
           >
             {createElement(item.icon)}
           </Link>

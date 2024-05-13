@@ -67,11 +67,11 @@ export const content = {
     image: person,
     hero_content: [
       {
-        count: "2+",
+        count: "1+",
         text: "Years of Experience in Web development",
       },
       {
-        count: "5+",
+        count: "3+",
         text: "Projects Worked in my career",
       },
     ],
@@ -291,14 +291,14 @@ export const content = {
         link: "https://wa.me/1234567890",
       },
       {
-        text: "mfn2000",
+        text: "mahdiFayaznia",
         icon: BsTelegram,
-        link: "https://t.me/mfn2000",
+        link: "https://t.me/mahdiFayaznia",
       },
     ],
   },
 
   footer: {
-    text: "mfn2000 © 2023. All Right Reserved.",
+    text: "mahdiFayaznia © 2024. All Right Reserved.",
   },
 };
